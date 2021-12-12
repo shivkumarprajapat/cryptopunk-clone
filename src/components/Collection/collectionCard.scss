@@ -1,4 +1,4 @@
-.collectionCard{
+.collectionCard {
     position: relative;
     color: var(--white);
     background-color: var(--main-color);
@@ -7,35 +7,33 @@
     width: 300px;
     height: 500px;
     margin-right: 30px;
-> img{
-    width:100%;
-
-}
-    .details{
+    > img {
+        width: 100%;
+    }
+    .details {
         padding: 20px;
     }
-.name{
-    font-size: 20px;
-    font-weight: 900;
-.id{
-    color: #a1a5b0;
-    font-size: 18px;
-    font-weight: 600;
-}
-}
-.wethImage{
-    height: 23px;
-    width: 15px;
-}
-.priceContainer{
-    display: flex;
-    align-items: center;
-    margin-top: 10px;
-    object-fit: contain;
-.price{
-    margin-left: 5px;
-    font-weight: 600;
-}
-}
-
+    .name {
+        font-size: 20px;
+        font-weight: 900;
+        .id {
+            color: #a1a5b0;
+            font-size: 18px;
+            font-weight: 600;
+        }
+    }
+    .wethImage {
+        height: 23px;
+        width: 15px;
+    }
+    .priceContainer {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+        object-fit: contain;
+        .price {
+            margin-left: 5px;
+            font-weight: 600;
+        }
+    }
 }
