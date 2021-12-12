@@ -1,0 +1,24 @@
+*{
+  padding:0;
+  margin:0;
+}
+
+:root {
+  --black: #000;
+  --white: #fff;
+  --main-color:#1c1c1e;
+  --text-color:#a1a5b0;
+  --gradient:linear-gradient(to right, #59f9f7, #66feea);
+}
+.App {
+  background-color: var(--black);
+  padding: 20px;
+  min-height: 100vh;
+  max-width: 100vw;
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}

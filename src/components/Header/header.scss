@@ -1,0 +1,65 @@
+.header {
+    height: 100px;
+    color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    > div {
+        margin: 10px;
+    }
+    .punkLogo {
+        width: 200px;
+    }
+    .searchBar {
+        height: 50px;
+        background-color: var(--main-color);
+        display: flex;
+        border-radius: 50px;
+        align-items: center;
+        flex: 1;
+    }
+    .searchIconContainer {
+        margin: 10px;
+    }
+    .searchInput {
+        background-color: transparent;
+        border: none;
+        width: 100%;
+        color: #eee;
+        font-weight: 500;
+        font-size: 16px;
+        outline: none;
+        &::placeholder {
+            color: #eee;
+        }
+    }
+    .headerItems {
+        // display: flex;
+        li {
+            display: inline-block;
+            margin: 10px;
+            color: var(--text-color);
+        }
+    }
+    .themeSwitchContainer {
+        background-color: var(--main-color);
+        padding: 15px;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        border-radius: 100%;
+        img {
+            width: 25px;
+        }
+    }
+    .loginButton {
+        outline: none;
+        border: transparent;
+        background-image: var(--gradient);
+        padding: 15px 40px;
+        border-radius: 50px;
+        color: var(--black);
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+}
