@@ -9,6 +9,7 @@
     }
     .punkLogo {
         width: 200px;
+        cursor: pointer;
     }
     .searchBar {
         height: 50px;
@@ -39,6 +40,7 @@
             display: inline-block;
             margin: 10px;
             color: var(--text-color);
+            cursor: pointer;
         }
     }
     .themeSwitchContainer {
@@ -46,6 +48,7 @@
         padding: 15px;
         display: flex;
         align-content: center;
+        cursor: pointer;
         justify-content: center;
         border-radius: 100%;
         img {
@@ -60,6 +63,7 @@
         border-radius: 50px;
         color: var(--black);
         font-size: 20px;
+        cursor: pointer;
         text-transform: uppercase;
     }
 }
