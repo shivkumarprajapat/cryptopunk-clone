@@ -1,26 +1,33 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import './main.scss'
-const Main = () => {
+
+const Main = ({ selectedPunk, punkListData }) => {
+
+    const [activePunk, setActivePunk] = useState(punkListData[3]);
+
+    useEffect(() => {
+        setActivePunk(punkListData[selectedPunk])
+    }, [punkListData, selectedPunk]);
+
     return (
         <div className='main'>
             <div className="mainContent">
                 <div className="punkHighlight">
                     <div className="punkContainer">
-                        {/* <img src={activePunk.image_original_url} alt="" /> */}
-                        <img src="https://ipfs.io/ipfs/bafkreiasgnibw32isqfyjnv5lhj4wxzp6izayculjlo4ampmmfla3j4tj4" className='selectedPunk' alt="" />
+                        <img src={activePunk.image_original_url} className='selectedPunk' alt="" />
                     </div>
                 </div>
                 <div className="punkDetails" style={{ color: "#fff" }}>
-                    <h1 className="title">Bandana Punk</h1>
-                    <span className="itemNumber">#3</span>
-                </div>
+                    <div className="title">{activePunk.name}
+                        <span className="itemNumber">#{activePunk.token_id}</span>
+                    </div>
                 <div className="owner">
                     <div className="ownerImageContainer">
-                    <img src="https://ipfs.io/ipfs/bafkreiasgnibw32isqfyjnv5lhj4wxzp6izayculjlo4ampmmfla3j4tj4" className='selectedPunk' alt="" />
+                        <img src={activePunk.owner.profile_img_url} className='selectedPunk' alt="" />
                     </div>
                     <div className="ownerDetails">
                         <div className="ownerNameHandle">
-                            <div>19020610</div>
+                            <div>{activePunk.owner.address}</div>
                             <div className='ownerHandle'>shivkumarpprajapat28@gmail.com</div>
                         </div>
                         <div className="ownerlink">
@@ -34,6 +41,7 @@ const Main = () => {
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         </div>
     )
