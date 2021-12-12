@@ -12,7 +12,7 @@ and more...
 
 
 ## <a href="https://shiv-cryptopunk-clone.netlify.app/"> LIVE DEMO</a>
-<img src='./Design.jpg' width="100%" height="auto" />
+<img src='./Design.png' width="100%" height="auto" />
 
 ## BackEnd API Created
 
