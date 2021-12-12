@@ -6,13 +6,13 @@ const PunkList = ({ punkListData }) => {
         <div className='punkList'>
             {
                 punkListData.map((punk, index) => {
-                    const { id, name, image_url, token_id } = punk;
+                    const { traits, name, image_url, token_id } = punk;
                     return (
                         <div key={index}>
                             <CollectionCard
-                                id={id}
+                                id={token_id}
                                 name={name}
-                                traits={[{ value: token_id }]}
+                                traits={traits}
                                 image={image_url}
                             />
 
