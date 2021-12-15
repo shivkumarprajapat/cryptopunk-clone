@@ -10,10 +10,6 @@ and more...
 
 ## Love your beautiful face 🔥
 
-
-## <a href="https://shiv-cryptopunk-clone.netlify.app/"> LIVE DEMO</a>
-<img src='./Design.png' width="100%" height="auto" />
-
 ## BackEnd API Created
 
 <a href='https://thirdweb.com'><img height='250px' src='./thirdweb-logo.jpg' alt='/'></a>
