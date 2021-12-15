@@ -12,7 +12,7 @@ and more...
 
 ## BackEnd API Created
 
-<a href='https://thirdweb.com'><img height='250px' src='./thirdweb-logo.jpg' alt='/'></a>
+<a href='https://thirdweb.com/rinkeby'><img height='250px' src='./thirdweb-logo.jpg' alt='/'></a>
 
 thirdweb.com custom API Create 
 
